@@ -1,0 +1,1686 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="robots" content="nofollow">
+    <title>06nov</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="keywords" content="" />
+    <meta name="description" content="">
+				<meta name="robots" content="nofollow">
+     <link href="favicon.png" rel="shortcut icon">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700,900' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/icons.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="css/hide-show.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/ekko-lightbox.css" rel="stylesheet">
+    <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/isotope-style.css" rel="stylesheet">
+
+
+
+	<style type="text/css">
+iframe, object, embed {
+max-width: 100%;
+max-height:  100%;
+overflow:hidden
+} 
+</style>
+
+    <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+            margin:auto;
+        }
+        .navbar-container{
+            width: 100%;
+        }
+        .navbar{
+            padding: 0;
+            height: 100px;
+            background-color: sandybrown;
+            position: fixed;
+            width: 100%;
+            z-index: 9999;
+            border-radius:0;
+        }
+        .navbar-brand{
+            display: inline-flex;
+        }
+
+        .navbar-brand img {
+            margin-top: -7%;
+        }
+
+        .navbar-collapse ul{
+            list-style: none;
+        }
+
+        .heading{
+            padding: 10px 25px;
+            margin:0;
+            position: fixed;
+            left: 7%;
+        }
+        .heading h3{
+            font-size:1.8em;
+            margin: 0;
+            line-height:1em;
+        }
+
+        .heading span{
+            text-transform: uppercase;
+            font-size: 0.6em;
+        }
+
+        .nav-heading h3{
+            font-size: 1.5em;
+            line-height: 0;
+            text-align: center;
+        }
+        .nav-heading p{
+            margin-top: 5%;
+            line-height: 1.3;
+            font-size: 0.7em;
+            width: 70%;
+            display: inline-block;
+            text-align: center;
+        }
+
+        #abt,#learn,#exhibit,#explore,#course,#login{
+            position: fixed;
+            text-align: center;
+        }
+        #abt{
+            right:50%;
+        }
+        #learn{
+            right:41%;
+        }
+        #explore{
+            right:29.5%;
+        }
+        #course{
+            right:19%;
+        }
+        #exhibit{
+            right:12.5%;
+        }
+
+        #login{
+            right:1%;
+        }
+
+        #mob-nav{
+            display: none;
+        }
+
+        @media (max-width:600px) {
+
+            #lap-nav{
+                display: none;
+            }
+            #mob-nav{
+                display: block;
+                margin-left: 23%;
+            }
+
+            .heading{
+                text-align: center;
+            }
+
+            /* Icon 1 */
+
+            #nav-icon1 {
+                background: transparent;
+                width: 40px;
+                height:45px;
+                border: none;
+                margin:0 2%;
+                position: relative;
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+                -webkit-transition: .5s ease-in-out;
+                -moz-transition: .5s ease-in-out;
+                -o-transition: .5s ease-in-out;
+                transition: .5s ease-in-out;
+                cursor: pointer;
+            }
+
+            #nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
+                display: block;
+                position: absolute;
+                height: 5px;
+                width: 100%;
+                background: lightgrey;
+                border-radius: 5px;
+                opacity: 1;
+                left: 0;
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+                -webkit-transition: .25s ease-in-out;
+                -moz-transition: .25s ease-in-out;
+                -o-transition: .25s ease-in-out;
+                transition: .25s ease-in-out;
+            }
+
+            #nav-icon1 span:nth-child(1) {
+                top: 9px;
+            }
+
+            #nav-icon1 span:nth-child(2) {
+                top: 21px;
+            }
+
+            #nav-icon1 span:nth-child(3) {
+                top: 33px;
+            }
+
+            #nav-icon1.open span:nth-child(1) {
+                top: 18px;
+                -webkit-transform: rotate(135deg);
+                -moz-transform: rotate(135deg);
+                -o-transform: rotate(135deg);
+                transform: rotate(135deg);
+            }
+
+            #nav-icon1.open span:nth-child(2) {
+                opacity: 0;
+                left: -60px;
+            }
+
+            #nav-icon1.open span:nth-child(3) {
+                top: 18px;
+                -webkit-transform: rotate(-135deg);
+                -moz-transform: rotate(-135deg);
+                -o-transform: rotate(-135deg);
+                transform: rotate(-135deg);
+            }
+
+            .navbar-nav{
+                margin-top:3%;
+            }
+
+            #abt,#learn,#exhibit,#explore,#course,#login{
+                position: relative;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                padding: 3%;
+                font-size: 120%;
+                text-align: center;
+                margin: 2% 0;
+            }
+            .nav-heading h3{
+                font-size: 1.5em;
+                line-height: 0;
+                text-align: center;
+            }
+            .nav-heading p{
+                margin-top: 5%;
+                line-height:0;
+                font-size: 0.7em;
+                width: 70%;
+                display: inline-block;
+                text-align: center;
+            }
+
+        }
+
+    </style>
+    <style>
+        #header{
+            display: none;
+        }
+        #navbar{
+            display: block;
+        }
+        @media (max-width:700px) {
+            #header{
+                display: block;
+            }
+            #navbar{
+                display:none;
+            }
+        }
+    </style>
+
+    <style>
+        @media (max-width: 700px) {
+            .menu{
+                padding-left: 10px;
+            }
+            .menu_trigger{
+                top:20px;
+            }
+            .menu h2{
+                margin-top: 10%;
+            }
+            .menu .icon_close{
+                margin-left: 26%;
+            }
+            .underline a{
+                margin-top: -5%;
+            }
+
+            .menu ul li{
+                padding: 10px;
+                line-height: 10px;
+                color: whitesmoke;
+            }
+            .menu ul li .active, .menu ul li:hover{
+                color: whitesmoke;
+            }
+            .nav-heading p{
+                margin-top: 12%;
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+    <style>
+        .extraSpacing4 .sectionInfo{
+            margin-bottom: 50px;
+        }
+        #explore-img{
+            margin-left: -5%;
+        }
+        .procesx{
+            margin-bottom: 25px;
+        }
+        .sectionInfo{
+            margin-top: 5%;
+            margin-bottom: 10px;
+        }
+        .sectionInfo h2{
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .abt-img{
+            margin-left: -2%;
+        }
+        .abt-img img {
+            width: 450px;
+            height: 300px;
+        }
+
+        #process{
+            padding-top: 20px;
+            padding-bottom: 50px;
+        }
+        #sOurLatestWork,#contact{
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="page">
+        <!--Header-->
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1 id="logo" class="underline"><a href="index.html" style="color: black;">WARHORSE</a></h1>
+                    </div>
+                </div>
+            </div>
+            <!--MENU-->
+            <div class="menu_trigger" id="myMenuTrigger"></div>
+            <div class="menu animate">
+                <h2 class="underline"><a href="index.html">Warhorse</a></h2>
+                <span class="icon_close" id="menuClose"></span>
+                <ul id="mainMenu">
+                    <li>
+                        <a href="#">
+                            <div class="nav-heading">
+                                <h3>About</h3>
+                                <p>What is this about?</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="nav-heading">
+                                <h3>Learning</h3>
+                                <p>What will I learn?</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="nav-heading">
+                                <h3>Exploration</h3>
+                                <p>What can I explore?</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="nav-heading">
+                                <h3>Course</h3>
+                                <p>What are the course details?</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="nav-heading">
+                                <h3>Exhibit</h3>
+                                <p>What will I create?</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="nav-heading">
+                                <h3>Login</h3>
+                                <p>What is this about?</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="Navbar" id="navbar">
+            <div class="navbar-container">
+
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                    <a class="navbar-brand" href="#" id="lap-nav" style="position: fixed;">
+                        <img src="./new/images/warhorse-logo.png" width="80" height="80" class="d-inline-block align-top" alt="">
+                        <div class="heading" style="position: fixed;">
+                            <h3>Long island design tea</h3>
+                            <span>Design Thought Enrichment</span>
+                        </div>
+                    </a>
+                    <a class="navbar-brand" href="#" id="mob-nav">
+                        <div class="heading">
+                            <h3>Warhorse</h3>
+                        </div>
+                    </a>
+                    <div id="nav-icon1" class="navbar-toggler"  data-toggle="collapse" data-target="#navbarNav"
+                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="abt">
+                                    <div class="nav-heading">
+                                        <h3>About</h3>
+                                        <p>What is this about?</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="learn">
+                                    <div class="nav-heading">
+                                        <h3>Learning</h3>
+                                        <p>What will I learn?</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="explore">
+                                    <div class="nav-heading">
+                                        <h3>Exploration</h3>
+                                        <p>What can I explore?</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="course">
+                                    <div class="nav-heading">
+                                        <h3>Course</h3>
+                                        <p>What are the course details?</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="exhibit">
+                                    <div class="nav-heading">
+                                        <h3>Exhibit</h3>
+                                        <p>What will I create?</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="login">
+                                    <div class="nav-heading">
+                                        <h3>Login</h3>
+                                        <p>Already with us?</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+        <!--END Header-->
+        <!--<div class="Carousel">-->
+            <!--<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">-->
+                <!--<ol class="carousel-indicators">-->
+                    <!--<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>-->
+                    <!--<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>-->
+                    <!--<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>-->
+                <!--</ol>-->
+                <!--<div class="carousel-inner">-->
+                    <!--<div class="carousel-item active">-->
+                        <!--<img class="d-block w-100" src="./new/images/s1.jpg" alt="First slide">-->
+                        <!--<div class="carousel-caption d-none d-md-block">-->
+                            <!--<h2>ONE</h2>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="carousel-item">-->
+                        <!--<img class="d-block w-100" src="./new/images/s2.jpg" alt="Second slide">-->
+                        <!--<div class="carousel-caption d-none d-md-block">-->
+                            <!--<h2>TWO</h2>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="carousel-item">-->
+                        <!--<img class="d-block w-100" src="./new/images/s3.jpg" alt="Third slide">-->
+                        <!--<div class="carousel-caption d-none d-md-block">-->
+                            <!--<h2>THREE</h2>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">-->
+                    <!--<span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+                    <!--<span class="sr-only">Previous</span>-->
+                <!--</a>-->
+                <!--<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">-->
+                    <!--<span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+                    <!--<span class="sr-only">Next</span>-->
+                <!--</a>-->
+            <!--</div>-->
+        <!--</div>-->
+    <div style="padding: 3% 0;"></div>
+<iframe width="2000" height="580" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="owl4/index.html"></iframe>
+
+
+        <section id="about" style="display: none">
+            <div class="container">
+                <div class="sectionInfo row"></div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="sectionInfo row">
+                            <h2 class="sectionTitle col-sm-4"><span class="underline">Learning</span></h2>
+                            <h2 class="sectionDescription col-sm-8">
+                                What will I learn ?
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!--intro slide-->
+
+                <div class="quotes-p">
+                    <div class="items">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="featureBox clearfix" data-appear="fade-in" data-appear-direction="left">
+                                    <h3><span class="icon_chat_alt"></span>Responsive</h3>
+                                    <p>
+                                        Lorem ut sit voluptatem creativity doloremque laudantium,
+                                        totam rem aperiam, inventore veritatis et quasi architecto
+                                        Lorem ut sit voluptatem creativity doloremque laudantium,
+                                        Lorem ut sit voluptatem creativity doloremque laudantium,
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="featureBox clearfix" data-appear="fade-in" data-appear-direction="bottom" data-appear-delay="300">
+                                    <h3><span class="icon_toolbox_alt"></span>Robust</h3>
+                                    <p>
+                                        WLorem ut sit voluptatem creativity doloremque laudantium,
+                                        totam rem aperiam, inventore veritatis et quasi architecto
+                                        beatae vitae dicta sunt explicabo
+                                        Lorem ut sit voluptatem creativity doloremque laudantium,
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="featureBox clearfix" data-appear="fade-in" data-appear-direction="right" data-appear-delay="600">
+                                    <h3><span class="icon_mug"></span>Creative</h3>
+                                    <p>
+                                        Lorem ut sit voluptatem creativity doloremque laudantium,
+                                        totam rem aperiam, inventore veritatis et quasi architecto
+                                        beatae vitae dicta sunt explicabo
+                                        Lorem ut sit voluptatem creativity doloremque laudantium,
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--<div class="items">-->
+                    <!--<div class="row">-->
+                    <!---->
+                    <!--<div class="col-sm-4">-->
+                    <!--<div class="featureBox clearfix" data-appear="fade-in" data-appear-direction="left">-->
+                    <!--<h3><span class="icon_chat_alt"></span>Easy</h3>-->
+                    <!--<p>Lorem ut sit voluptatem creativity doloremque laudantium, totam rem aperiam, inventore veritatis et quasi architecto </p>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!---->
+                    <!--<div class="col-sm-4">-->
+                    <!--<div class="featureBox clearfix" data-appear="fade-in" data-appear-direction="bottom" data-appear-delay="300">-->
+                    <!--<h3><span class="icon_toolbox_alt"></span>Awarded</h3>-->
+                    <!--<p>WLorem ut sit voluptatem creativity doloremque laudantium, totam rem aperiam, inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!---->
+                    <!--<div class="col-sm-4">-->
+                    <!--<div class="featureBox clearfix" data-appear="fade-in" data-appear-direction="right" data-appear-delay="600">-->
+                    <!--<h3><span class="icon_mug"></span>Different</h3>-->
+                    <!--<p>Lorem ut sit voluptatem creativity doloremque laudantium, totam rem aperiam, inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </section >
+        <!--about -->
+        <section id="Highlight" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="sectionInfo row">
+                            <h2 class="sectionTitle col-sm-4">
+                                <span class="underline">About</span>
+                                <div class="abt-img">
+                                    <img class="img-responsive" src="./new/images/AcademyTeaserPoster.jpg" alt="">
+                                </div>
+                            </h2>
+                            <h2 class="sectionDescription col-sm-8">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book. It has survived not only five centuries, but also the leap
+                                into electronic typesetting, remaining essentially unchanged.
+                                It was popularised in the 1960s with the release of Letraset
+                                sheets containing Lorem Ipsum passages,
+                                and more recently with desktop publishing software like Aldus
+                                PageMaker including versions of Lorem Ipsum
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="sectionInfo row">
+                            <h2 class="sectionTitle col-sm-4"><span class="underline">Learning</span></h2>
+                            <h2 class="sectionDescription col-sm-8">
+                                What will I learn ?
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!--intro slide-->
+
+                <div class="quotes-p">
+                    <div class="items">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="featureBox clearfix" data-appear="fade-in" data-appear-direction="left">
+                                    <h3><span class="icon_chat_alt"></span>Responsive</h3>
+                                    <p>
+                                        Lorem ut sit voluptatem creativity doloremque laudantium,
+                                        totam rem aperiam, inventore veritatis et quasi architecto
+                                        Lorem ut sit voluptatem creativity doloremque laudantium,
+                                        Lorem ut sit voluptatem creativity doloremque laudantium,
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="featureBox clearfix" data-appear="fade-in" data-appear-direction="bottom" data-appear-delay="300">
+                                    <h3><span class="icon_toolbox_alt"></span>Robust</h3>
+                                    <p>
+                                        WLorem ut sit voluptatem creativity doloremque laudantium,
+                                        totam rem aperiam, inventore veritatis et quasi architecto
+                                        beatae vitae dicta sunt explicabo
+                                        Lorem ut sit voluptatem creativity doloremque laudantium,
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="featureBox clearfix" data-appear="fade-in" data-appear-direction="right" data-appear-delay="600">
+                                    <h3><span class="icon_mug"></span>Creative</h3>
+                                    <p>
+                                        Lorem ut sit voluptatem creativity doloremque laudantium,
+                                        totam rem aperiam, inventore veritatis et quasi architecto
+                                        beatae vitae dicta sunt explicabo
+                                        Lorem ut sit voluptatem creativity doloremque laudantium,
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--<div class="items">-->
+                    <!--<div class="row">-->
+                    <!---->
+                    <!--<div class="col-sm-4">-->
+                    <!--<div class="featureBox clearfix" data-appear="fade-in" data-appear-direction="left">-->
+                    <!--<h3><span class="icon_chat_alt"></span>Easy</h3>-->
+                    <!--<p>Lorem ut sit voluptatem creativity doloremque laudantium, totam rem aperiam, inventore veritatis et quasi architecto </p>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!---->
+                    <!--<div class="col-sm-4">-->
+                    <!--<div class="featureBox clearfix" data-appear="fade-in" data-appear-direction="bottom" data-appear-delay="300">-->
+                    <!--<h3><span class="icon_toolbox_alt"></span>Awarded</h3>-->
+                    <!--<p>WLorem ut sit voluptatem creativity doloremque laudantium, totam rem aperiam, inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!---->
+                    <!--<div class="col-sm-4">-->
+                    <!--<div class="featureBox clearfix" data-appear="fade-in" data-appear-direction="right" data-appear-delay="600">-->
+                    <!--<h3><span class="icon_mug"></span>Different</h3>-->
+                    <!--<p>Lorem ut sit voluptatem creativity doloremque laudantium, totam rem aperiam, inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </section>
+
+        <!--team-->
+      <!--<section id="team" class="obliqueCut lightSection graySection separatorTop separatorBottom extraSpacing4" style="background-color:#f3f3f3;">-->
+            <!--<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="separator" viewBox="0 0 100 100" preserveAspectRatio="none">-->
+                <!--<path d="M0 100 L100 0 L100 100 Z"></path>-->
+            <!--</svg>-->
+                        <!--<div class="sectionIcon icon_archive_alt"></div>-->
+
+
+         <!--<div class="container" >-->
+            <!--<div class="row">-->
+               <!--<div class="col-md-12 section-heading animated" style="text-align:center" data-animation="fadeInUp" data-animation-delay="0">-->
+                  <!--<h2>THE TEAM</h2>-->
+                  <!--<h1>They do the work</h1>-->
+                  <!--<p class="line">&nbsp;</p>-->
+               <!--</div>-->
+            <!--</div>-->
+            <!--<div class="owl-carousel" id="our-team">-->
+               <!--<div class="team-contents animated" data-animation="flipInX" data-animation-delay="200">-->
+                  <!--<div class="picture"><a href="#" class="teamoverlayzoom"><img src="img/team/1.jpg" class="img-responsive" alt=""><span class="zoom"><span><i class="fa fa-briefcase"></i></span></span> </a> </div>-->
+                  <!--<div class="heading">Martin Jutsu</div>-->
+                  <!--<div class="designation">Fonder</div>-->
+                  <!--<p class="smallline">&nbsp;</p>-->
+                  <!--<div class="description">Lorem ut sit voluptatem creativity doloremque laudantium, totam rem aperiam, inventore veritatis et quasi architecto. </div>-->
+                  <!--<div class="team-social"><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></div>-->
+               <!--</div>-->
+               <!---->
+               <!--<div class="team-contents animated" data-animation="flipInX" data-animation-delay="400">-->
+                  <!--<div class="picture"><a href="#" class="teamoverlayzoom"><img src="img/team/2.jpg" class="img-responsive" alt=""><span class="zoom"><span><i class="fa fa-heart"></i></span></span> </a> </div>-->
+                  <!--<div class="heading">Martin Jutsu</div>-->
+                  <!--<div class="designation">Fonder</div>-->
+                  <!--<p class="smallline">&nbsp;</p>-->
+                  <!--<div class="description">Lorem ut sit voluptatem creativity doloremque laudantium, totam rem aperiam, inventore veritatis et quasi architecto. </div>-->
+                  <!--<div class="team-social"><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></div>-->
+               <!--</div>-->
+               <!---->
+               <!--<div class="team-contents animated" data-animation="flipInX" data-animation-delay="600">-->
+                  <!--<div class="picture"><a href="#" class="teamoverlayzoom"><img src="img/team/3.jpg" class="img-responsive" alt=""><span class="zoom"><span><i class="fa fa-code"></i></span></span> </a> </div>-->
+                  <!--<div class="heading">Martin Jutsu</div>-->
+                  <!--<div class="designation">Fonder</div>-->
+                  <!--<p class="smallline">&nbsp;</p>-->
+                  <!--<div class="description">Lorem ut sit voluptatem creativity doloremque laudantium, totam rem aperiam, inventore veritatis et quasi architecto. </div>-->
+                  <!--<div class="team-social"><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></div>-->
+               <!--</div>-->
+               <!---->
+               <!--<div class="team-contents animated" data-animation="flipInX" data-animation-delay="800">-->
+                  <!--<div class="picture"><a href="#" class="teamoverlayzoom"><img src="img/team/4.jpg" class="img-responsive" alt=""><span class="zoom"><span><i class="fa fa-pagelines"></i></span></span> </a> </div>-->
+                  <!--<div class="heading">Martin Jutsu</div>-->
+                  <!--<div class="designation">Fonder</div>-->
+                  <!--<p class="smallline">&nbsp;</p>-->
+                  <!--<div class="description">Lorem ut sit voluptatem creativity doloremque laudantium, totam rem aperiam, inventore veritatis et quasi architecto. </div>-->
+                  <!--<div class="team-social"><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></div>-->
+               <!--</div>-->
+               <!---->
+               <!--<div class="team-contents animated" data-animation="flipInX" data-animation-delay="1000">-->
+                  <!--<div class="picture"><a href="#" class="teamoverlayzoom"><img src="img/team/5.jpg" class="img-responsive" alt=""><span class="zoom"><span><i class="fa fa-code"></i></span></span> </a> </div>-->
+                  <!--<div class="heading">Martin Jutsu</div>-->
+                  <!--<div class="designation">Fonder</div>-->
+                  <!--<p class="smallline">&nbsp;</p>-->
+                  <!--<div class="description">Lorem ut sit voluptatem creativity doloremque laudantium, totam rem aperiam, inventore veritatis et quasi architecto. </div>-->
+                  <!--<div class="team-social"><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></div>-->
+               <!--</div>-->
+               <!---->
+               <!--<div class="team-contents animated" data-animation="flipInX" data-animation-delay="1200">-->
+                  <!--<div class="picture"><a href="#" class="teamoverlayzoom"><img src="img/team/6.jpg" class="img-responsive" alt=""><span class="zoom"><span><i class="fa fa-pagelines"></i></span></span> </a> </div>-->
+                  <!--<div class="heading">Martin Jutsu</div>-->
+                  <!--<div class="designation">Fonder</div>-->
+                  <!--<p class="smallline">&nbsp;</p>-->
+                  <!--<div class="description">Lorem ut sit voluptatem creativity doloremque laudantium, totam rem aperiam, inventore veritatis et quasi architecto. </div>-->
+                  <!--<div class="team-social"><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></div>-->
+               <!--</div>-->
+               <!---->
+            <!--</div>-->
+         <!--</div>-->
+         <!--</div>-->
+
+
+        <!--Highlight-->
+
+
+        <!--process-->
+        <section id="process" class="obliqueCut lightSection graySection separatorTop separatorBottom extraSpacing4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="sectionInfo row">
+                            <h2 class="sectionTitle col-sm-4"><span class="underline"></span>Exploration</h2>
+                            <h2 class="sectionDescription col-sm-8">
+                                What can I Explore ?
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!--SECTION CONTENT-->
+                <div class="row overflowHidden decoprocesxs">
+                    <div class="col-sm-3 clearfix decoAvatars" id="explore-img" data-appear="fade-in" data-appear-direction="left">
+                        <div class="decoAvatarsSlider">
+                            <span class="Prev animate">
+                                <img alt="Previous" src="images/prevDark.png" /></span>
+                            <span class="Next animate">
+                                <img alt="Next" src="images/nextDark.png" /></span>
+                        </div>
+                        <div class="decoAvatarsFixed">
+                            <div class="procesx text-center" data-toggle="tab" data-target="#procesx1">
+                                <img class="procesxImg animateFast boxShadowHover" alt="deco procesx" src="./new/images/CourseIcons/Evaluations.png" />
+                                <div class="procesxName titleColor">STEP one</div>
+                                <div class="procesxPosition">Lorem ipsum</div>
+                            </div>
+                            <div class="procesx text-center" data-toggle="tab" data-target="#procesx2">
+                                <img class="procesxImg animateFast boxShadowHover" alt="deco procesx" src="./new/images/CourseIcons/GamifiedClassroom.png" />
+                                <div class="procesxName titleColor">STEP two</div>
+                                <div class="procesxPosition">Lorem ipsum</div>
+                            </div>
+                            <div class="procesx text-center" data-toggle="tab" data-target="#procesx3">
+                                <img class="procesxImg animateFast boxShadowHover" alt="deco procesx" src="./new/images/CourseIcons/HabitForming.png" />
+                                <div class="procesxName titleColor">STEP three</div>
+                                <div class="procesxPosition">Lorem ipsum</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tab-content" data-appear="fade-in" data-appear-direction="right">
+                        <!--procesx 1-->
+                        <div id="procesx1" class="tab-pane fade in active">
+                            <!--ABOUT procesx-->
+                            <div class="col-sm-9 paddingRight0">
+                                <div class="procesxAbout">
+                                    <div class="procesxName descriptionColor">STEP one</div>
+                                    <div class="procesxDesc1 titleColor">
+                                        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+                                    </div>
+                                    <div class="procesxDesc2">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                        specimen book. It has survived not only five centuries, but also the leap into
+                                        electronic typesetting, remaining essentially unchanged.
+                                        It was popularised in the 1960s with the release of Letraset sheets
+                                        containing Lorem Ipsum passages, and more recently with desktop publishing
+                                        software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </div>
+                                    <!--<div class="procesxSocial">-->
+                                        <!--<h4>Check more :</h4>-->
+                                        <!--<ul class="procesxSocialList">-->
+                                            <!--<li><a class="soc_twitter" href="#">twitter</a></li>-->
+                                            <!--<li><a class="soc_facebook" href="#">Facebook</a></li>-->
+                                            <!--<li><a class="soc_googlep" href="#">Google</a></li>-->
+                                            <!--<li><a class="soc_linkedin" href="#">Linkedin</a></li>-->
+                                        <!--</ul>-->
+                                    <!--</div>-->
+                                </div>
+                            </div>
+                            <!--<div class="col-sm-3 paddingLeft0">-->
+                                <!--<div class="procesxInstagram">-->
+                                    <!--<div class="procesxName descriptionColor text-center">#responsive <span class="baseColor">@dol</span></div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        </div>
+
+
+                        <!--procesx 2-->
+                        <div id="procesx2" class="tab-pane fade">
+                            <div class="col-sm-9 paddingRight0">
+                                <div class="procesxAbout">
+                                    <div class="procesxName descriptionColor">STEP two</div>
+                                    <div class="procesxDesc1 titleColor">
+                                        Lorem Ipsum: when, and when not to use it....
+                                    </div>
+                                    <div class="procesxDesc2">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                        specimen book. It has survived not only five centuries, but also the leap into
+                                        electronic typesetting, remaining essentially unchanged.
+                                        It was popularised in the 1960s with the release of Letraset sheets
+                                        containing Lorem Ipsum passages, and more recently with desktop publishing
+                                        software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </div>
+                                    <!--<div class="procesxSocial">-->
+                                        <!--<h4>Check more :</h4>-->
+                                        <!--<ul class="procesxSocialList">-->
+                                            <!--<li><a class="soc_twitter" href="#">twitter</a></li>-->
+                                            <!--<li><a class="soc_facebook" href="#">Facebook</a></li>-->
+                                            <!--<li><a class="soc_googlep" href="#">Google</a></li>-->
+                                            <!--<li><a class="soc_linkedin" href="#">Linkedin</a></li>-->
+                                        <!--</ul>-->
+                                    <!--</div>-->
+                                </div>
+                            </div>
+                            <!--<div class="col-sm-3 paddingLeft0">-->
+                                <!--<div class="procesxInstagram">-->
+                                    <!--<div class="procesxName descriptionColor text-center">#robust <span class="baseColor">@web</span></div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        </div>
+
+
+
+                        <!--procesx 3-->
+                        <div id="procesx3" class="tab-pane fade">
+                            <div class="col-sm-9 paddingRight0">
+                                <div class="procesxAbout">
+                                    <div class="procesxName descriptionColor">STEP three</div>
+                                    <div class="procesxDesc1 titleColor">
+                                        Lorem Ipsum plugins: content management systems (CMS)....
+                                    </div>
+                                    <div class="procesxDesc2">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                        specimen book. It has survived not only five centuries, but also the leap into
+                                        electronic typesetting, remaining essentially unchanged.
+                                        It was popularised in the 1960s with the release of Letraset sheets
+                                        containing Lorem Ipsum passages, and more recently with desktop publishing
+                                        software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </div>
+                                    <!--<div class="procesxSocial">-->
+                                        <!--<h4>Check more :</h4>-->
+                                        <!--<ul class="procesxSocialList">-->
+                                            <!--<li><a class="soc_twitter" href="#">twitter</a></li>-->
+                                            <!--<li><a class="soc_facebook" href="#">Facebook</a></li>-->
+                                            <!--<li><a class="soc_googlep" href="#">Google</a></li>-->
+                                            <!--<li><a class="soc_linkedin" href="#">Linkedin</a></li>-->
+                                        <!--</ul>-->
+                                    <!--</div>-->
+                                </div>
+                            </div>
+                            <!--<div class="col-sm-3 paddingLeft0">-->
+                                <!--<div class="procesxInstagram">-->
+                                    <!--<div class="procesxName descriptionColor text-center">#clean <span class="baseColor">@design</span></div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="separator" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 100 L100 0 L0 0 Z"></path>
+            </svg>
+        </section>
+
+
+        <!--Testione-->
+        <section id="testi1" class="obliqueCut lightSection graySection imageBackground img1Bkg" data-parallax-speed="-0.3" style="display: none">
+            <!--<div class="sectionIcon icon_quotations"></div>-->
+            <div class="container">
+                <div class="row">
+
+                    <!--<div class="col-sm-8">-->
+                        <!--<div class="quote" data-appear="fade-in">-->
+                            <!--<div class="quoteText alternateColor">Perfection is Achieved not when there is nothing more to add, but when there is nothing left to take away…</div>-->
+                            <!--<div class="quoteAuthor descriptionColor">- Antoine de Saint-Exupéry</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <div class="col-sm-4">
+                  <div id="about-carousel" class="owl-carousel owl-theme animated" data-animation="fadeIn" data-animation-delay="100">
+                     <div class="item"><img src="img/about/1.jpg"  class="img-responsive" alt=""></div>
+                     <div class="item"><img src="img/about/2.jpg"  class="img-responsive" alt=""></div>
+                     <div class="item"><img src="img/about/3.jpg"  class="img-responsive" alt=""></div>
+                  </div>
+               </div>
+               </div>
+
+                </div>
+        </section>
+
+
+        <!--&lt;!&ndash;Latest Work &ndash;&gt;-->
+        <!--<section id="work" class="obliqueCut lightSection separatorTop">-->
+            <!--<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="separator"  viewBox="0 0 100 100" preserveAspectRatio="none">-->
+                <!--<path d="M0 100 L100 0 L100 100 Z"></path>-->
+            <!--</svg>-->
+
+            <!--<div class="sectionIcon icon_desktop"></div>-->
+            <!--<div class="container">-->
+                <!--<div class="row">-->
+                    <!--<div class="col-sm-12">-->
+                        <!--<div class="sectionInfo row">-->
+                            <!--<h2 class="sectionTitle col-sm-4"><span class="underline">The</span> latest works.</h2>-->
+                            <!--<h2 class="sectionDescription col-sm-8">Lorem ut sit voluptatem creativity doloremque laudantium, totam rem aperiam, inventore veritatis et quasi architecto .  <br />-->
+<!--.</h2>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+
+        <!--<section id="portfolio">-->
+         <!--<div class="container">-->
+
+            <!--<div class="row">-->
+               <!--<div class="col-md-12 animated" data-animation="fadeInUp" data-animation-delay="100">-->
+                  <!--<div id="options">-->
+                     <!--<ul id="filters" class="option-set clearfix" data-option-key="filter">-->
+                        <!--<li><a href="#filter" data-option-value="*" class="selected"><i class="fa fa-th"></i></a></li>-->
+                        <!--<li><a href="#filter" data-option-value=".graphics"><i class="fa fa-heart"></i> </a></li>-->
+                        <!--<li><a href="#filter" data-option-value=".photos"><i class="fa fa-picture-o"></i></a></li>-->
+                        <!--<li><a href="#filter" data-option-value=".videos"><i class="fa fa-video-camera"></i></a></li>-->
+                     <!--</ul>-->
+                  <!--</div>-->
+               <!--</div>-->
+            <!--</div>-->
+
+         <!--</div>-->
+
+         <!--<div id="container-thumbs">-->
+            <!--<div class="items graphics animated" data-animation="fadeIn" data-animation-delay="200">-->
+               <!--<a href="img/portfolio/big.jpg" data-toggle="lightbox" data-gallery="mixedgallery" data-title="Pellentesque habitant morbi" data-footer="Aliquam erat volutpat" class="overlayzoom">-->
+               <!--<img src="img/portfolio/t1.jpg" class="img-responsive" alt=""><span class="zoom"><span><i class="fa fa-heart"></i></span></span>-->
+               <!--</a>-->
+            <!--</div>-->
+            <!--<div class="items videos animated" data-animation="fadeIn" data-animation-delay="300">-->
+               <!--<a href="http://vimeo.com/69948148" data-remote="http://player.vimeo.com/video/69948148" data-toggle="lightbox" data-gallery="mixedgallery" data-title="Pellentesque habitant morbi" data-footer="Aliquam erat volutpat" class="overlayzoom">-->
+               <!--<img src="img/portfolio/t2.jpg" class="img-responsive" alt=""><span class="zoom"><span><i class="fa fa-video-camera"></i></span></span>-->
+               <!--</a>-->
+            <!--</div>-->
+            <!--<div class="items photos animated" data-animation="fadeIn" data-animation-delay="400">-->
+               <!--<a href="img/portfolio/big.jpg" data-toggle="lightbox" data-gallery="mixedgallery" data-title="Pellentesque habitant morbi" data-footer="Aliquam erat volutpat" class="overlayzoom">-->
+               <!--<img src="img/portfolio/t3.jpg" class="img-responsive" alt=""><span class="zoom"><span><i class="fa fa-picture-o"></i></span></span>-->
+               <!--</a>-->
+            <!--</div>-->
+            <!--<div class="items photos animated" data-animation="fadeIn" data-animation-delay="500">-->
+               <!--<a href="img/portfolio/big.jpg" data-toggle="lightbox" data-gallery="mixedgallery" data-title="Pellentesque habitant morbi" data-footer="Aliquam erat volutpat" class="overlayzoom">-->
+               <!--<img src="img/portfolio/t4.jpg" class="img-responsive" alt=""><span class="zoom"><span><i class="fa fa-picture-o"></i></span></span>-->
+               <!--</a>-->
+            <!--</div>-->
+            <!--<div class="items videos animated" data-animation="fadeIn" data-animation-delay="600">-->
+               <!--<a href="http://vimeo.com/69948148" data-remote="http://player.vimeo.com/video/69948148" data-toggle="lightbox" data-gallery="mixedgallery" data-title="Pellentesque habitant morbi" data-footer="Aliquam erat volutpat" class="overlayzoom">-->
+               <!--<img src="img/portfolio/t5.jpg" class="img-responsive" alt=""><span class="zoom"><span><i class="fa fa-video-camera"></i></span></span>-->
+               <!--</a>-->
+            <!--</div>-->
+            <!--<div class="items graphics animated" data-animation="fadeIn" data-animation-delay="1100">-->
+               <!--<a href="img/portfolio/big.jpg" data-toggle="lightbox" data-gallery="mixedgallery" data-title="Pellentesque habitant morbi" data-footer="Aliquam erat volutpat" class="overlayzoom">-->
+               <!--<img src="img/portfolio/t6.jpg" class="img-responsive" alt=""><span class="zoom"><span><i class="fa fa-heart"></i></span></span>-->
+               <!--</a>-->
+            <!--</div>-->
+            <!--<div class="items photos animated" data-animation="fadeIn" data-animation-delay="1000">-->
+               <!--<a href="img/portfolio/big.jpg" data-toggle="lightbox" data-gallery="mixedgallery" data-title="Pellentesque habitant morbi" data-footer="Aliquam erat volutpat" class="overlayzoom">-->
+               <!--<img src="img/portfolio/t7.jpg" class="img-responsive" alt=""><span class="zoom"><span><i class="fa fa-picture-o"></i></span></span>-->
+               <!--</a>-->
+            <!--</div>-->
+            <!--<div class="items videos animated" data-animation="fadeIn" data-animation-delay="900">-->
+               <!--<a href="http://vimeo.com/69948148" data-remote="http://player.vimeo.com/video/69948148" data-toggle="lightbox" data-gallery="mixedgallery" data-title="Pellentesque habitant morbi" data-footer="Aliquam erat volutpat" class="overlayzoom">-->
+               <!--<img src="img/portfolio/t8.jpg" class="img-responsive" alt=""><span class="zoom"><span><i class="fa fa-video-camera"></i></span></span>-->
+               <!--</a>-->
+            <!--</div>-->
+            <!--<div class="items graphics animated" data-animation="fadeIn" data-animation-delay="800">-->
+               <!--<a href="img/portfolio/big.jpg" data-toggle="lightbox" data-gallery="mixedgallery" data-title="Pellentesque habitant morbi" data-footer="Aliquam erat volutpat" class="overlayzoom">-->
+               <!--<img src="img/portfolio/t9.jpg" class="img-responsive" alt=""><span class="zoom"><span><i class="fa fa-heart"></i></span></span>-->
+               <!--</a>-->
+            <!--</div>-->
+            <!--<div class="items graphics animated" data-animation="fadeIn" data-animation-delay="700">-->
+               <!--<a href="img/portfolio/big.jpg" data-toggle="lightbox" data-gallery="mixedgallery" data-title="Pellentesque habitant morbi" data-footer="Aliquam erat volutpat" class="overlayzoom">-->
+               <!--<img src="img/portfolio/t1.jpg" class="img-responsive" alt=""><span class="zoom"><span><i class="fa fa-heart"></i></span></span>-->
+               <!--</a>-->
+            <!--</div>-->
+         <!--</div>-->
+
+            <!--&lt;!&ndash;END SECTION CONTENT&ndash;&gt;-->
+        <!--</section>-->
+        <!--&lt;!&ndash;END Our latest work section&ndash;&gt;-->
+
+        <!--</section>-->
+
+
+        <!--Services and skills-->
+        <!--<section id="sServices" class="obliqueCut darkSection purpleSection separatorTop extraSpacing2 paddingBottom120">-->
+            <!--<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="separator"  viewBox="0 0 100 100" preserveAspectRatio="none">-->
+                <!--<path d="M0 100 L100 0 L100 100 Z"></path>-->
+            <!--</svg>-->
+            <!--<div class="sectionIcon icon_cog"></div>-->
+            <!--<div class="container">-->
+                <!--<div class="row">-->
+                    <!--<div class="col-sm-12">-->
+                        <!--<div class="sectionInfo row">-->
+                            <!--<h2 class="sectionTitle col-sm-4"><span class="underline">Services</span> we offer.</h2>-->
+                            <!--<h2 class="sectionDescription col-sm-8">We’re passionate about digital technology and taking on new creative challenges.</h2>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+            <!--<div class="row">-->
+
+               <!--<div class="col-md-12 skills-progress">-->
+                  <!--<div class="col-xs-6 col-sm-4 col-md-2 animated" data-animation="bounceInUp" data-animation-delay="0">-->
+                     <!--<div id="donutchart1" data-percent="91"> </div>-->
+                     <!--HTML5-->
+                  <!--</div>-->
+                  <!--<div class="col-xs-6 col-sm-4 col-md-2 animated" data-animation="bounceInUp" data-animation-delay="100">-->
+                     <!--<div id="donutchart2" data-percent="74"></div>-->
+                     <!--jQuery-->
+                  <!--</div>-->
+                  <!--<div class="col-xs-6 col-sm-4 col-md-2 animated" data-animation="bounceInUp" data-animation-delay="200">-->
+                     <!--<div id="donutchart3" data-percent="97"></div>-->
+                     <!--Database-->
+                  <!--</div>-->
+                  <!--<div class="col-xs-6 col-sm-4 col-md-2 animated" data-animation="bounceInUp" data-animation-delay="300">-->
+                     <!--<div id="donutchart4" data-percent="57"></div>-->
+                     <!--Design-->
+                  <!--</div>-->
+                  <!--<div class="col-xs-6 col-sm-4 col-md-2 animated" data-animation="bounceInUp" data-animation-delay="400">-->
+                     <!--<div id="donutchart5" data-percent="61"></div>-->
+                     <!--3D-->
+                  <!--</div>-->
+                  <!--<div class="col-xs-6 col-sm-4 col-md-2 animated" data-animation="bounceInUp" data-animation-delay="500">-->
+                     <!--<div id="donutchart6" data-percent="65"></div>-->
+                     <!--Animation-->
+                  <!--</div>-->
+               <!--</div>-->
+
+            <!--</div>-->
+        <!--</section>-->
+
+
+        <!--News-->
+        <!--<section id="blog" class="obliqueCut lightSection separatorTop separatorBottom paddingBottom0">-->
+            <!--<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="separator"  viewBox="0 0 100 100" preserveAspectRatio="none">-->
+                <!--<path d="M0 100 L100 0 L100 100 Z"></path>-->
+            <!--</svg>-->
+            <!--&lt;!&ndash;SECTION ICON&ndash;&gt;-->
+            <!--<div class="sectionIcon  icon_ribbon_alt"></div>-->
+
+            <!--<div class="container">-->
+                <!--<div class="row">-->
+                    <!--<div class="col-sm-12">-->
+                        <!--<div class="sectionInfo row">-->
+                            <!--<h2 class="sectionTitle col-sm-4"><span class="underline">Latest</span> news.</h2>-->
+                            <!--<h2 class="sectionDescription col-sm-8">What could be the apogee of evolution. What would be their thought, interest & goals ?</h2>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+
+                      <!--<section id="bl2">-->
+         <!--<div class="container">-->
+            <!--<div class="row">-->
+
+               <!--<div class="col-xs-12 col-sm-6 col-md-4 post animated" data-animation="fadeInUp" data-animation-delay="100">-->
+                  <!--<div class="picture"><img src="img/blog/1.jpg" class="img-responsive" alt=""></div>-->
+                  <!--<div class="date">-->
+                     <!--06-->
+                     <!--<p>NOV</p>-->
+                  <!--</div>-->
+              <!--<div class="heading">WOW news</div>-->
+                  <!--<div class="info">By <a href="#">admin</a> | <a href="#">4 Comments</a></div>-->
+                  <!--<div class="smallline">&nbsp;</div>-->
+                  <!--<div class="description">Why life could develop itself in universe, and why universe so big ? What is behind the X boson and if there is a purpuse behind this, what should it be...What could be the apogee of evolution. </div>-->
+                  <!--<div class="more"><a href="../../plugs/gallery/single/case3/indexb.html"><i class="fa fa-plus"></i></a></div>-->
+               <!--</div>-->
+
+               <!--<div class="col-xs-12 col-sm-6 col-md-4 post animated" data-animation="fadeInUp" data-animation-delay="200">-->
+                  <!--<div class="picture"><img src="img/blog/2.jpg" class="img-responsive" alt=""></div>-->
+                  <!--<div class="date">-->
+                     <!--06-->
+                     <!--<p>NOV</p>-->
+                  <!--</div>-->
+              <!--<div class="heading">WOW news</div>-->
+                  <!--<div class="info">By <a href="#">admin</a> | <a href="#">4 Comments</a></div>-->
+                  <!--<div class="smallline">&nbsp;</div>-->
+                  <!--<div class="description">Why life could develop itself in universe, and why universe so big ? What is behind the X boson and if there is a purpuse behind this, what should it be...What could be the apogee of evolution. </div>-->
+                  <!--<div class="more"><a href="../../plugs/gallery/single/case3/indexb.html"><i class="fa fa-plus"></i></a></div>-->
+               <!--</div>-->
+
+               <!--<div class="col-xs-12 col-sm-6 col-md-4 post animated" data-animation="fadeInUp" data-animation-delay="300">-->
+                  <!--<div class="picture"><img src="img/blog/3.jpg" class="img-responsive" alt=""></div>-->
+                  <!--<div class="date">-->
+                     <!--03-->
+                     <!--<p>NOV</p>-->
+                  <!--</div>-->
+              <!--<div class="heading">WOW news</div>-->
+                  <!--<div class="info">By <a href="#">admin</a> | <a href="#">4 Comments</a></div>-->
+                  <!--<div class="smallline">&nbsp;</div>-->
+                  <!--<div class="description">Why life could develop itself in universe, and why universe so big ? What is behind the X boson and if there is a purpuse behind this, what should it be...What could be the apogee of evolution. </div>-->
+                  <!--<div class="more"><a href="../../plugs/gallery/single/case3/indexb.html"><i class="fa fa-plus"></i></a></div>-->
+               <!--</div>-->
+
+            <!--</div>-->
+         <!--</div>-->
+      <!--</section>-->
+
+
+
+            <!--</div>-->
+            <!--&lt;!&ndash; END CONTAINER &ndash;&gt;-->
+            <!--<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="separator" viewBox="0 0 100 100" preserveAspectRatio="none">-->
+                <!--<path d="M0 100 L100 0 L0 0 Z"></path>-->
+            <!--</svg>-->
+        <!--</section>-->
+
+
+        <!--Testimonials 2-->
+        <!--<section id="sTestimonials" class="obliqueCut lightSection imageBackground img2Bkg paddingBottom120" data-parallax-speed="-0.8">-->
+            <!--<div class="sectionIcon icon_star_alt"></div>-->
+            <!--<div class="container">-->
+                <!--<div class="row">-->
+                    <!--<div class="col-sm-12" data-appear="fade-in" data-appear-direction="top">-->
+
+            <!--<div class="row">-->
+               <!--<div class="col-md-10 col-md-offset-1 animated" data-animation="fadeInUp" data-animation-delay="100">-->
+                  <!--<div class="testimonials-p">-->
+                     <!--<div class="items">-->
+                        <!--<div class="desc">Why life could develop itself in universe, and why universe so big ? What is behind the X boson and if there is a purpuse behind this, what should it be...What could be the apogee of evolution. What would be their thought, interest & goals ?-->
+<!--</div>-->
+                        <!--<div class="heading-1">- NINA SIMONE- </div>-->
+                        <!--<div class="heading-2">Great artist</div>-->
+                     <!--</div>-->
+                     <!--<div class="items">-->
+                        <!--<div class="desc">Why life could develop itself in universe, and why universe so big ? What is behind the X boson and if there is a purpuse behind this, what should it be...What could be the apogee of evolution. What would be their thought, interest & goals ?-->
+ <!--</div>-->
+                        <!--<div class="heading-1">- NINA SIMONE- </div>-->
+                        <!--<div class="heading-2">Great artist</div>-->
+                     <!--</div>-->
+                     <!--<div class="items">-->
+                        <!--<div class="desc">Why life could develop itself in universe, and why universe so big ? What is behind the X boson and if there is a purpuse behind this, what should it be...What could be the apogee of evolution. What would be their thought, interest & goals ?-->
+ <!--</div>-->
+                        <!--<div class="heading-1">- NINA SIMONE- </div>-->
+                        <!--<div class="heading-2">Great artist</div>-->
+                     <!--</div>-->
+                     <!--<div class="items">-->
+                        <!--<div class="desc">Why life could develop itself in universe, and why universe so big ? What is behind the X boson and if there is a purpuse behind this, what should it be...What could be the apogee of evolution. What would be their thought, interest & goals ?-->
+ <!--</div>-->
+                        <!--<div class="heading-1">- NINA SIMONE- </div>-->
+                        <!--<div class="heading-2">Great artist</div>-->
+                     <!--</div>-->
+                  <!--</div>-->
+                  <!--<br /><br /><br /><br /><br /><br />-->
+               <!--</div>-->
+            <!--</div>-->
+         <!--</div>-->
+
+                    <!--</div>-->
+                <!--</div>-->
+        <!--</section>-->
+
+
+        <!--SERVICE-->
+        <section id="sOurLatestWork" class="obliqueCut lightSection separatorTop">
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="sectionInfo row">
+                            <h2 class="sectionTitle col-sm-4"><span class="underline"></span>Exhibit</h2>
+                            <h2 class="sectionDescription col-sm-8">
+                                What will i create ?
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--SECTION CONTENT-->
+                  <section id="services">
+         <div class="container">
+            
+            <div class="owl-carousel" id="our-services">
+               <!--<div class="item animated" data-animation="flipInY" data-animation-delay="200">-->
+                  <!--<div class="circle icon"><i class="fa fa-desktop"></i></div>-->
+              <!--<div class="heading-1">Robust</div>-->
+                  <!--<div class="heading-2">Responsive</div>-->
+                  <!--<p class="smallline">&nbsp;</p>-->
+                  <!--<div class="description">Why life could develop itself in universe, and why universe so big ? What is behind the X boson and if there is a purpuse behind this, what should it be...What could be the apogee of evolution.</div>-->
+               <!--</div>-->
+               <!---->
+               <!--<div class="item animated" data-animation="flipInY" data-animation-delay="400">-->
+                  <!--<div class="circle icon"><i class="fa fa-columns"></i></div>-->
+              <!--<div class="heading-1">Responsive</div>-->
+                  <!--<div class="heading-2">Responsive</div>-->
+                  <!--<p class="smallline">&nbsp;</p>-->
+                  <!--<div class="description">Why life could develop itself in universe, and why universe so big ? What is behind the X boson and if there is a purpuse behind this, what should it be...What could be the apogee of evolution.</div>-->
+               <!--</div>-->
+               
+               <div class="item animated" data-animation="flipInY" data-animation-delay="600">
+                  <div class="circle icon"><i class="fa fa-dropbox"></i></div>
+              <div class="heading-1">ONE</div>
+                  <!--<div class="heading-2">Responsive</div>-->
+                  <p class="smallline">&nbsp;</p>
+                   <div class="description">
+                       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                       when an unknown printer took a galley of type and scrambled it to make a
+                       type specimen book.
+                   </div>
+               </div>
+               
+               <div class="item animated" data-animation="flipInY" data-animation-delay="800">
+                  <div class="circle icon"><i class="fa fa-twitter"></i></div>
+              <div class="heading-1">TWO</div>
+                  <!--<div class="heading-2">Responsive</div>-->
+                  <p class="smallline">&nbsp;</p>
+                  <div class="description">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a
+                      type specimen book.
+                  </div>
+               </div>
+               
+               <div class="item animated" data-animation="flipInY" data-animation-delay="1000">
+                  <div class="circle icon"><i class="fa fa-pagelines"></i></div>
+              <div class="heading-1">THREE</div>
+                  <!--<div class="heading-2">Responsive</div>-->
+                  <p class="smallline">&nbsp;</p>
+                   <div class="description">
+                       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                       when an unknown printer took a galley of type and scrambled it to make a
+                       type specimen book.
+                   </div>
+               </div>
+
+               <div class="item animated" data-animation="flipInY" data-animation-delay="1200">
+                  <div class="circle icon"><i class="fa fa-camera"></i></div>
+              <div class="heading-1">FOUR</div>
+                  <!--<div class="heading-2">Responsive</div>-->
+                  <p class="smallline">&nbsp;</p>
+                   <div class="description">
+                       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                       when an unknown printer took a galley of type and scrambled it to make a
+                       type specimen book.
+                   </div>
+               </div>
+               
+            </div>
+            <div> </div>
+         </div>
+      </section>
+
+        </section>
+
+
+
+        <!--&lt;!&ndash;FACTS&ndash;&gt;-->
+        <!--<section id="fact" class="obliqueCut darkSection separatorTop">-->
+            <!--<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="separator" viewBox="0 0 100 100" preserveAspectRatio="none">-->
+                <!--<path d="M0 100 L100 0 L100 100 Z"></path>-->
+            <!--</svg>-->
+            <!--<div class="sectionIcon icon_archive_alt"></div>-->
+            <!---->
+            <!--<div class="container">-->
+                <!--<div class="row">-->
+                    <!--<div class="col-sm-12">-->
+                        <!--<div class="sectionInfo row">-->
+                            <!--<h2 class="sectionTitle col-sm-4"><span class="underline">Some</span> facts.</h2>-->
+                            <!--<h2 class="sectionDescription col-sm-8">What could be the apogee of evolution. What would be their thought, interest & goals ? <br />-->
+<!--It was the 3rd of november, a day i will always remember. Papa was a rolling stone...</h2>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+            <!--</div>-->
+            <!--&lt;!&ndash;SECTION CONTENT&ndash;&gt;-->
+         <!--<div class="container">-->
+            <!--<div id="our-facts">-->
+            <!---->
+               <!--<div class="items animated" data-animation="bounceInUp" data-animation-delay="300">-->
+                  <!--<div class="circle">15+</div>-->
+                  <!--<div class="icon"><i class="fa fa-cog"></i></div>-->
+                  <!--<div class="heading-1">years in</div>-->
+                  <!--<div class="heading-2">business</div>-->
+               <!--</div>-->
+
+               <!--<div class="items animated" data-animation="bounceInUp" data-animation-delay="100">-->
+                  <!--<div class="circle">480+</div>-->
+                  <!--<div class="icon"><i class="fa fa-headphones"></i></div>-->
+                  <!--<div class="heading-1">Coding</div>-->
+                  <!--<div class="heading-2">Hours</div>-->
+               <!--</div>-->
+               <!--<div class="items animated" data-animation="bounceInUp" data-animation-delay="500">-->
+                  <!--<div class="circle">46+</div>-->
+                  <!--<div class="icon"><i class="fa fa-globe"></i></div>-->
+                  <!--<div class="heading-1">Countries</div>-->
+                  <!--<div class="heading-2">Provided</div>-->
+               <!--</div>-->
+               <!--<div class="items animated" data-animation="bounceInUp" data-animation-delay="700">-->
+                  <!--<div class="circle">1k+</div>-->
+                  <!--<div class="icon"><i class="fa fa-heart"></i></div>-->
+                  <!--<div class="heading-1">Projects</div>-->
+                  <!--<div class="heading-2">Delivered</div>-->
+               <!--</div>-->
+               <!--<div class="items animated" data-animation="bounceInUp" data-animation-delay="900">-->
+                  <!--<div class="circle">3</div>-->
+                  <!--<div class="icon"><i class="fa fa-bookmark"></i></div>-->
+                  <!--<div class="heading-1">winning</div>-->
+                  <!--<div class="heading-2">awwards</div>-->
+               <!--</div>-->
+               <!--<div class="items animated" data-animation="bounceInUp" data-animation-delay="1300">-->
+                  <!--<div class="circle">7k+</div>-->
+                  <!--<div class="icon"><i class="fa fa-user"></i></div>-->
+                  <!--<div class="heading-1">Happy</div>-->
+                  <!--<div class="heading-2">Users</div>-->
+               <!--</div>-->
+              <!--<div class="items animated" data-animation="bounceInUp" data-animation-delay="900">-->
+                  <!--<div class="circle">3</div>-->
+                  <!--<div class="icon"><i class="fa fa-bookmark"></i></div>-->
+                  <!--<div class="heading-1">winning</div>-->
+                  <!--<div class="heading-2">awwards</div>-->
+               <!--</div>-->
+
+            <!--</div>-->
+         <!--</div>-->
+
+        <!--</section>-->
+
+
+        <!--&lt;!&ndash;Satisfied customers section&ndash;&gt;-->
+        <!--<section id="sCustomers" class="obliqueCut lightSection separatorTop">-->
+            <!--<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="separator" viewBox="0 0 100 100" preserveAspectRatio="none">-->
+                <!--<path d="M0 100 L100 0 L100 100 Z"></path>-->
+            <!--</svg>-->
+            <!--<div class="container">-->
+                <!--&lt;!&ndash; SECTION TITLE &ndash;&gt;-->
+                <!--<div class="row">-->
+                    <!--<div class="col-sm-12">-->
+                        <!--<div class="sectionInfo row">-->
+                            <!--<h2 class="sectionTitle col-sm-4"><span class="underline">Happy</span> customers.</h2>-->
+                            <!--<h2 class="sectionDescription col-sm-8">Lorem ut sit voluptatem creativity doloremque laudantium, totam rem aperiam, inventore veritatis et quasi architecto beatae vitae.  <br />-->
+<!--</h2>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--&lt;!&ndash; END SECTION TITLE &ndash;&gt;-->
+
+                <!--&lt;!&ndash; CUSTOMERS LIST &ndash;&gt;-->
+      <!--<section id="pricing" data-speed="10" data-type="background">-->
+         <!--<div class="container">-->
+            <!--<div class="row">-->
+
+               <!--<div class="col-xs-12 col-sm-6 col-md-3 animated" data-animation="fadeIn" data-animation-delay="200">-->
+                  <!--<div class="picture"><img src="img/pricing/1.jpg" class="img-responsive" alt=""></div>-->
+                  <!--<div class="heading-1">FREE</div>-->
+             <!--<div class="circle"><span class="price">$00</span><br><span>per month</span></div>-->
+                  <!--<div class="p-table">-->
+      <!--<ul>-->
+                        <!--<li>10 Email Account</li>-->
+                        <!--<li>1 Admin Account</li>-->
+                        <!--<li>1GB Disk Space</li>-->
+                        <!--<li>100GB Bandwidth/mo</li>-->
+                     <!--</ul>-->
+                  <!--</div>-->
+                  <!--<div><a href="#" class="btn p">Join now</a></div>-->
+               <!--</div>-->
+
+               <!--<div class="col-xs-12 col-sm-6 col-md-3 animated" data-animation="fadeIn" data-animation-delay="500">-->
+                  <!--<div class="picture"><img src="img/pricing/2.jpg" class="img-responsive" alt=""></div>-->
+                  <!--<div class="heading-1">Entry</div>-->
+             <!--<div class="circle"><span class="price">$10</span><br><span>per month</span></div>-->
+                  <!--<div class="p-table">-->
+      <!--<ul>-->
+                        <!--<li>10 Email Account</li>-->
+                        <!--<li>1 Admin Account</li>-->
+                        <!--<li>1GB Disk Space</li>-->
+                        <!--<li>100GB Bandwidth/mo</li>-->
+                     <!--</ul>-->
+                  <!--</div>-->
+                  <!--<div><a href="#" class="btn p">Join now</a></div>-->
+               <!--</div>-->
+
+               <!--<div class="col-xs-12 col-sm-6 col-md-3 animated" data-animation="fadeIn" data-animation-delay="800">-->
+                  <!--<div class="picture"><img src="img/pricing/3.jpg" class="img-responsive" alt=""></div>-->
+                  <!--<div class="heading-1">Confort</div>-->
+             <!--<div class="circle"><span class="price">$25</span><br><span>per month</span></div>-->
+                  <!--<div class="p-table">-->
+      <!--<ul>-->
+                        <!--<li>10 Email Account</li>-->
+                        <!--<li>1 Admin Account</li>-->
+                        <!--<li>1GB Disk Space</li>-->
+                        <!--<li>100GB Bandwidth/mo</li>-->
+                     <!--</ul>-->
+                  <!--</div>-->
+                  <!--<div><a href="#" class="btn p">Join now</a></div>-->
+               <!--</div>-->
+
+               <!--<div class="col-xs-12 col-sm-6 col-md-3 animated" data-animation="fadeIn" data-animation-delay="1200">-->
+                  <!--<div class="picture"><img src="img/pricing/4.jpg" class="img-responsive" alt=""></div>-->
+                  <!--<div class="heading-1">Pro</div>-->
+             <!--<div class="circle"><span class="price">$40</span><br><span>per month</span></div>-->
+                  <!--<div class="p-table">-->
+      <!--<ul>-->
+                        <!--<li>10 Email Account</li>-->
+                        <!--<li>1 Admin Account</li>-->
+                        <!--<li>1GB Disk Space</li>-->
+                        <!--<li>100GB Bandwidth/mo</li>-->
+                     <!--</ul>-->
+                  <!--</div>-->
+                  <!--<div><a href="#" class="btn p">Join now</a></div>-->
+               <!--</div>-->
+            <!--</div>-->
+         <!--</div>-->
+      <!--</section>-->
+      <!---->
+            <!--<section id="clients">-->
+         <!--<div class="clients">-->
+            <!--<div class="items animated" data-animation="tada" data-animation-delay="0"><img src="img/clients/1.jpg" alt=""></div>-->
+            <!--<div class="items animated" data-animation="tada" data-animation-delay="100"><img src="img/clients/2.jpg" alt=""></div>-->
+            <!--<div class="items animated" data-animation="tada" data-animation-delay="200"><img src="img/clients/3.jpg" alt=""></div>-->
+            <!--<div class="items animated" data-animation="tada" data-animation-delay="300"><img src="img/clients/4.jpg" alt=""></div>-->
+            <!--<div class="items animated" data-animation="tada" data-animation-delay="400"><img src="img/clients/5.jpg" alt=""></div>-->
+            <!--<div class="items animated" data-animation="tada" data-animation-delay="500"><img src="img/clients/6.jpg" alt=""></div>-->
+         <!--</div>-->
+      <!--</section>-->
+
+            <!--</div>-->
+            <!---->
+        <!--</section>-->
+        
+        <!--Contact-->
+        <section id="contact" class="obliqueCut lightSection graySection separatorTop separatorBottom">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="sectionInfo row">
+                            <h2 class="sectionTitle col-sm-4"><span class="underline">Get</span> in touch.</h2>
+                            <h2 class="sectionDescription col-sm-8"><span class="titleColor">The place to be :</span><br />
+                                WARHORSE</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <ul class="socialList style2" data-appear="fade-in">
+                            <li><a class="soc_twitter" href="#">Follow us on twitter</a></li>
+                            <li><a class="soc_facebook" href="#">Follow us on facebook</a></li>
+                            <li><a class="soc_googlep" href="#">Join us on google+</a></li>
+                        </ul>
+                    </div>
+
+                    <!--CONTACT FORM-->
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <form method="post" class="contactForm" action="http://dyfacto.com/ccc.php" data-appear="fade-in" data-appear-delay="300">
+                            <h2>Say hello!</h2>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input type="text" name="name" placeholder="Name:" />
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="email" name="email" placeholder="Email:" />
+                                </div>
+                                <div class="col-sm-12">
+                                    <textarea name="message" placeholder="Message:" rows="1"></textarea>
+                                </div>
+                                <div class="col-sm-12 text-right">
+                                    <span class="submit descriptionColor">
+                                        <input type="submit" value="send message" class="titleColor" />
+                                    </span>
+                                    <div id="contactResponse" class="text-left"></div>
+                                </div>
+                            </div>
+                            <div class="contactBusy"><div class="progressContainer"><span class="typing_loader"></span></div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="separator" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 100 L100 0 L0 0 Z"></path>
+            </svg>
+        </section>
+
+        <!--&lt;!&ndash;Google Map&ndash;&gt;-->
+        <!--<section class="obliqueCut lightSection separatorTop paddingTop0 paddingBottom0">-->
+            <!--<div class="gmap_container" data-appear="fade-in">-->
+                <!--<div id="gmap_canvas">-->
+
+                    <!--<span id="ourLocationX">47.218371</span>-->
+                    <!--<span id="ourLocationY">-1.553621</span>-->
+                    <!--<div id="visitUsContainer">-->
+                        <!--<input type="text" required placeholder="Visit us from..." id="startLocation" class="animate" onkeydown="if (event.keyCode == 13) calcRoute()" />-->
+                        <!--<span class="icon_close animate" onclick="removeRoute()"></span>-->
+                    <!--</div>-->
+                    <!--<div id="gMapPopup">-->
+                        <!--<h2 class='underline'><b>06nov</b></h2>-->
+                        <!--<span>Our office</span>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</section>-->
+
+        <!--Footer-->
+        <footer id="footer" class="obliqueCut lightSection separatorTop">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="separator" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 100 L100 0 L100 100 Z"></path>
+            </svg>
+            <div class="container">
+                <div class="row">
+               <div class="col-lg-6 col-lg-offset-3">
+                  <div class="desc"><i class="fa fa-heart"></i><br>© WARHORSE<br>
+                      Lorem ut sit inventore veritatis et quasi architecto.</div>
+                  <div class="line"></div>
+                  <a href="#" class="scrollup"><i class="fa fa-angle-double-up"></i></a>
+               </div>
+            </div>
+
+                <div class="row">
+                    <div class="col-sm-6 text-left">
+                        <div><span class="highlight">&copy; warhorse</span> All rights Reserved</div>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                        <div>Designed by <strong>Saravanan .</strong></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--END Footer-->
+
+    <!--Scripts-->
+  		  <script type="text/javascript" src="js/jquery.js"></script>
+  		  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  		  <script type="text/javascript" src="js/imagesloaded.js"></script>
+  		  <script type="text/javascript" src="js/parallax.js"></script>
+ 		   <script type="text/javascript" src="js/carouFredSel.js"></script>
+  		  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+  		  <script type="text/javascript" src="js/gmaps.js"></script>
+  		  <script type="text/javascript" src="js/script.js"></script>
+      <script type="text/javascript" src="js/jquery.js"></script> 
+      <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+      <script type="text/javascript" src="js/migrate.js"></script> 
+      <script type="text/javascript" src="js/smc.js"></script> 
+      <script type="text/javascript" src="js/ekko-lightbox.js"></script>       
+      <script type="text/javascript" src="js/appear.js"></script>        
+      <script type="text/javascript" src="js/contact.js"></script>
+      <script type="text/javascript" src="js/sticky.js"></script>
+      <script type="text/javascript" src="js/donutchart.js"></script> 
+      <script type="text/javascript" src="js/isotope.min.js"></script>
+      <script type="text/javascript" src="js/isotope.js"></script>
+      <script type="text/javascript" src="js/owl.carousel.js"></script> 
+      <script type="text/javascript" src="js/custom.js"></script> 
+      <script type="text/javascript" src="js/parallax.js"></script> 
+      <script type="text/javascript" src="js/scrollTo.js"></script> 
+      <script>
+         $("#donutchart1").donutchart("animate");
+         $("#donutchart2").donutchart("animate");
+         $("#donutchart3").donutchart("animate");
+         $("#donutchart4").donutchart("animate");
+         $("#donutchart5").donutchart("animate");
+         $("#donutchart6").donutchart("animate");
+         $("#donutchart7").donutchart("animate");
+         $("#donutchart8").donutchart("animate");			
+      </script>
+      <!-- Retina -->
+      <script type="text/javascript" src="js/retina.js"></script>
+
+
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10437478-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+
+</html>
