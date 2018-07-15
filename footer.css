@@ -1,0 +1,190 @@
+#myFooter{
+    padding-top:25px;
+    background-color:lightgrey;
+    font-family: "Montserrat", sans-serif;
+    z-index: 9999;
+}
+
+hr{
+    border: 0.5px solid black;
+}
+#myFooter .container{
+    text-align: center;
+}
+
+#myFooter .footer-copyright{
+    margin-bottom: 20px;
+    text-align: center;
+    color:black;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#myFooter ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+#myFooter a{
+    font-family: "Montserrat", sans-serif;
+    color: #ffc000;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#myFooter li{
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 1;
+}
+
+#myFooter .footer-social{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#myFooter .top{
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color:darkgray;
+    color:black;
+    border-radius: 51%;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 25px;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+
+#myFooter .fa-facebook:hover{
+    background-color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus{
+    background-color: #2b55ff;
+}
+
+#myFooter .fa-youtube-play:hover{
+    background-color:red;
+}
+
+#myFooter .fa-youtube-play:focus{
+    background-color:red;
+}
+
+#myFooter .fa-medium:hover{
+    background-color:white;
+
+}
+
+#myFooter .fa-medium:focus{
+    background-color:white;
+}
+
+#myFooter .fa-instagram:hover{
+    background-color:#bc2a8d;
+
+}
+
+#myFooter .fa-instagram:focus{
+    background-color:#bc2a8d;
+}
+
+
+
+#myFooter .fa-twitter:hover{
+    background-color: #00aced;
+
+}
+
+#myFooter .fa-twitter:focus{
+    background-color:#00aced;
+}
+
+.footer-links:hover{
+    color: white;
+    border-bottom: 3px solid white;
+    padding: 0.3% 0 0.2% 0;
+    margin-bottom: 2%;
+}
+
+.contact{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+#myFooter .cont{
+    color: black;
+}
+
+.mob-only{
+    display: none;
+}
+
+@media screen and (max-width:620px) {
+
+    .mob-only {
+        display: block;
+    }
+
+    #myFooter ul {
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    #myFooter a {
+        font-family: "Raleway", sans-serif;
+        color: #ffeb3b;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    #myFooter li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 25px 15px;
+        line-height: 1;
+    }
+
+    #myFooter li:hover {
+        color: white;
+        border-bottom: 3px solid white;
+        padding: 0.3% 0 0.2% 0;
+        margin-bottom: 2%;
+    }
+
+    #myFooter .footer-social {
+        padding-top:20px;
+        padding-bottom: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    #myFooter .fa {
+        margin-right: 10px;
+        margin-left: 10px;
+        line-height: 20px;
+    }
+
+    #myFooter .contact .footer-copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+}
+

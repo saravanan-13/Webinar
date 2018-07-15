@@ -1,0 +1,203 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin:auto;
+}
+.navbar-container{
+    width: 100%;
+}
+.navbar{
+    padding: 0;
+    height: 100px;
+    background-color: sandybrown;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    border-radius:0;
+}
+.navbar-brand{
+    display: inline-flex;
+}
+
+.navbar-brand img {
+    margin-top: -7%;
+}
+
+.navbar-collapse ul{
+    list-style: none;
+}
+
+.heading{
+    padding: 10px 25px;
+    margin:0;
+    position: fixed;
+    left: 7%;
+}
+.heading h3{
+    font-size:1.8em;
+    margin: 0;
+    line-height:1em;
+}
+
+.heading span{
+    text-transform: uppercase;
+    font-size: 0.6em;
+}
+
+.nav-heading h3{
+    font-size: 1.5em;
+    line-height: 0;
+    text-align: center;
+}
+.nav-heading p{
+    margin-top: 5%;
+    line-height: 1.3;
+    font-size: 0.7em;
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+}
+
+#abt,#learn,#exhibit,#explore,#course,#login{
+    position: fixed;
+    text-align: center;
+}
+#abt{
+    right:50%;
+}
+#learn{
+    right:41%;
+}
+#explore{
+    right:29.5%;
+}
+#course{
+    right:19%;
+}
+#exhibit{
+    right:12.5%;
+}
+
+#login{
+    right:1%;
+}
+
+#mob-nav{
+    display: none;
+}
+
+@media (max-width:600px) {
+    #lap-nav{
+        display: none;
+    }
+    #mob-nav{
+        display: block;
+        margin-left: 23%;
+    }
+
+    .heading{
+        text-align: center;
+    }
+
+    /* Icon 1 */
+
+    #nav-icon1 {
+        background: transparent;
+        width: 40px;
+        height:45px;
+        border: none;
+        margin:0 2%;
+        position: relative;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+    }
+
+    #nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
+        display: block;
+        position: absolute;
+        height: 5px;
+        width: 100%;
+        background: lightgrey;
+        border-radius: 5px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+
+    #nav-icon1 span:nth-child(1) {
+        top: 9px;
+    }
+
+    #nav-icon1 span:nth-child(2) {
+        top: 21px;
+    }
+
+    #nav-icon1 span:nth-child(3) {
+        top: 33px;
+    }
+
+    #nav-icon1.open span:nth-child(1) {
+        top: 18px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
+
+    #nav-icon1.open span:nth-child(2) {
+        opacity: 0;
+        left: -60px;
+    }
+
+    #nav-icon1.open span:nth-child(3) {
+        top: 18px;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+    }
+
+    .navbar-nav{
+        margin-top:3%;
+    }
+
+    #abt,#learn,#exhibit,#explore,#course,#login{
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 3%;
+        font-size: 120%;
+        text-align: center;
+        margin: 2% 0;
+    }
+    .nav-heading h3{
+        font-size: 1.5em;
+        line-height: 0;
+        text-align: center;
+    }
+    .nav-heading p{
+        margin-top: 8%;
+        line-height:0;
+        font-size: 0.7em;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+}

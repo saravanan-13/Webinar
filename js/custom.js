@@ -1,63 +1,63 @@
-$(document).ready(function() {
-  var time = 7;
-  var $progressBar,
-      $bar, 
-      $elem, 
-      isPause, 
-      tick,
-      percentTime;
-    $("#about-carousel").owlCarousel({
-      slideSpeed : 500,
-      paginationSpeed : 500,
-      singleItem : true,
-      afterInit : progressBar,
-      afterMove : moved,
-      startDragging : pauseOnDragging
-    });
-    function progressBar(elem){
-      $elem = elem;
-      buildProgressBar();
-      start();
-    }
-    function buildProgressBar(){
-      $progressBar = $("<div>",{
-        id:"progressBar"
-      });
-      $bar = $("<div>",{
-        id:"bar"
-      });
-      $progressBar.append($bar).prependTo($elem);
-    }
-    function start() {
-      percentTime = 0;
-      isPause = false;
-      tick = setInterval(interval, 10);
-    };
-    function interval() {
-      if(isPause === false){
-        percentTime += 1 / time;
-        $bar.css({
-           width: percentTime+"%"
-         });
-        if(percentTime >= 100){
-          $elem.trigger('owl.next')
-        }
-      }
-    }
-    function pauseOnDragging(){
-      isPause = true;
-    }
-    function moved(){
-      clearTimeout(tick);
-      start();
-    }
-$elem.on('mouseover',function(){
-   isPause = true;
- })
-$elem.on('mouseout',function(){
-  isPause = false;
- })
-});
+// $(document).ready(function() {
+//   var time = 7;
+//   var $progressBar,
+//       $bar,
+//       $elem,
+//       isPause,
+//       tick,
+//       percentTime;
+//     $("#about-carousel").owlCarousel({
+//       slideSpeed : 500,
+//       paginationSpeed : 500,
+//       singleItem : true,
+//       afterInit : progressBar,
+//       afterMove : moved,
+//       startDragging : pauseOnDragging
+//     });
+//     function progressBar(elem){
+//       $elem = elem;
+//       buildProgressBar();
+//       start();
+//     }
+//     function buildProgressBar(){
+//       $progressBar = $("<div>",{
+//         id:"progressBar"
+//       });
+//       $bar = $("<div>",{
+//         id:"bar"
+//       });
+//       $progressBar.append($bar).prependTo($elem);
+//     }
+//     function start() {
+//       percentTime = 0;
+//       isPause = false;
+//       tick = setInterval(interval, 10);
+//     };
+//     function interval() {
+//       if(isPause === false){
+//         percentTime += 1 / time;
+//         $bar.css({
+//            width: percentTime+"%"
+//          });
+//         if(percentTime >= 100){
+//           $elem.trigger('owl.next')
+//         }
+//       }
+//     }
+//     function pauseOnDragging(){
+//       isPause = true;
+//     }
+//     function moved(){
+//       clearTimeout(tick);
+//       start();
+//     }
+// $elem.on('mouseover',function(){
+//    isPause = true;
+//  })
+// $elem.on('mouseout',function(){
+//   isPause = false;
+//  })
+// });
 $(document).ready(function () {
     $("#our-team").owlCarousel({
         autoPlay: 5000,
@@ -98,6 +98,31 @@ $(document).ready(function () {
         navigationText: [
         "<i class='fa fa-angle-left'></i>",
         "<i class='fa fa-angle-right'></i>"
+        ],
+    });
+});
+$(document).ready(function () {
+    function random(owlSelector) {
+        owlSelector.children().sort(function () {
+            return Math.round(Math.random()) - 0.5;
+        }).each(function () {
+            $(this).appendTo(owlSelector);
+        });
+    }
+    $("#mobile-explore").owlCarousel({
+        autoPlay: 5000,
+        slideSpeed: 500,
+        items: 4,
+        itemsDesktop: [1199, 4],
+        itemsDesktopSmall: [979, 3],
+        itemsTablet: [768, 2],
+        itemsMobile: [479, 1],
+        autoHeight: true,
+        pagination: false,
+        navigation: true,
+        navigationText: [
+            "<i class='fa fa-angle-left'></i>",
+            "<i class='fa fa-angle-right'></i>"
         ],
     });
 });

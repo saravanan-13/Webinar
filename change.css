@@ -1,0 +1,185 @@
+.top-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-img img{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.top-text h3{
+    margin: 2%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.top-text p {
+    margin: 2%;
+    font-size: 13px;
+}
+.extraSpacing4 .sectionInfo{
+    margin-bottom: 50px;
+}
+
+.sectionInfo{
+    margin-top: 5%;
+    margin-bottom: 10px;
+}
+.sectionInfo h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.abt-img{
+    margin-left: -2%;
+}
+.abt-img img {
+    width: 450px;
+    height: 300px;
+}
+
+#process{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#sOurLatestWork,#contact{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#header{
+    display: none;
+}
+#navbar{
+    display: block;
+}
+
+
+.sectionInfo h2{
+    text-align: center;
+}
+.sectionInfo h2 span{
+    font-size: 35px;
+    font-weight: 600;
+}
+#about-underline:after{
+    width: 100px;
+}
+.sectionDescription{
+    margin-top: 10px;
+    font-size: 18px;
+}
+#learn-underline:after{
+    width:150px;
+}
+
+#learning-desc{
+    font-size: 15px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+
+#explore-underline:after{
+    width:190px;
+}
+
+.decoAvatarsFixed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.decoAvatars .procesx:last-of-type{
+    margin-bottom: 40px;
+}
+
+.process1:before,.process2:before,.process3:before {
+    content: ' ';
+    border: 15px solid transparent;
+    position: absolute;
+    left:260px;
+    top: -30px;
+    transform: rotate(90deg);
+}
+#procesx2 .procesxAbout:before{
+    top:-30px;
+    left: 570px;
+}
+#procesx3 .procesxAbout:before{
+    top:-30px;
+    left: 850px;
+}
+
+.procesx .procesxImg{
+    border-radius: 0;
+}
+
+#course-underline:after{
+    width:120px;
+}
+
+#mobile-view{
+    display: none;
+}
+@media (max-width: 700px) {
+    #header,#mobile-view{
+        display: block;
+    }
+    #navbar,#process-view{
+        display:none;
+    }
+
+    .menu{
+        padding-left: 10px;
+    }
+    .menu_trigger{
+        top:20px;
+    }
+    .menu h2{
+        margin-top: 10%;
+    }
+    .menu .icon_close{
+        margin-left: 26%;
+    }
+    .underline a{
+        margin-top: -5%;
+    }
+
+    .menu ul li{
+        padding: 10px;
+        line-height: 10px;
+        color: whitesmoke;
+    }
+    .menu ul li .active, .menu ul li:hover{
+        color: whitesmoke;
+    }
+    .nav-heading p{
+        margin-top: 12%;
+        width: 100%;
+        display: block;
+    }
+    .decoAvatarsFixed{
+        display: block;
+    }
+
+    .procesx .procesxImg{
+        margin-top: 5px;
+        border-radius: 0;
+    }
+    .procesxAbout{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .procesxAbout .procesxDesc1{
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .procesxAbout .procesxDesc2{
+        font-size: 16px;
+    }
+    .text-left,.text-right{
+        padding: 2% 0;
+        text-align: center;
+    }
+
+}
